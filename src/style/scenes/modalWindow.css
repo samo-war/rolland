@@ -1,0 +1,106 @@
+.modal-wrapper {
+  position: absolute;
+  background-color: rgba(110, 110, 110, 0.9);
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-window h2 {
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+.modal-window {
+  color: white;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+#attack-type {
+  background: url('../../../assets/images/background/dialog.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.modal-window p {
+  font-size: 40px;
+  margin: 30px auto;
+}
+
+.attack-type-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 600px;
+  margin-top: 30px;
+}
+
+.attack-config-item {
+  border: 1px solid grey;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.attack-config-item:hover {
+  transform: scale(1.1);
+  font-weight: bold;
+}
+
+#fire {
+  background: url('../../../assets/images/background/fire.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+#ice {
+  background: url('../../../assets/images/background/ice.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.task-type-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 700px;
+  margin-top: 50px;
+}
+
+.task-type-item {
+  font-size: 30px;
+  color:black;
+  background-color: lightgray;
+  width: 200px;
+  height: 80px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#task-type {
+  background: url('../../../assets/images/background/potion.png') no-repeat;
+  background-size: 100% 100%;
+  height: 800;
+  bottom: 20px;
+  padding-bottom: 400px;
+}
+
+.select-task {
+  color: black;
+  text-shadow: 0px 0px 30px white;
+}

@@ -1,0 +1,879 @@
+@keyframes body-attack-fire {
+  0%
+  {
+    background-position: -100px 50px;
+  }
+  15%
+  {
+    background-position: -600px 50px;
+  }
+  30%
+  {
+    background-position: -1100px 50px;
+  }
+  45%
+  {
+    background-position: -1600px 50px;
+  }
+  60%
+  {
+    background-position: -2100px 50px;
+  }
+  75%
+  {
+    background-position: -2600px 50px;
+  }
+  100%
+  {
+    background-position: -3100px 50px;
+  }
+}
+
+@keyframes face-attack-fire {
+  0%
+  {
+    left: 20px;
+    top: 20px;
+    transform: rotateZ(-5deg);
+  }
+  15%
+  {
+    left: 11px;
+    top: 20px;
+    transform: rotateZ(-7deg)
+  }
+  30%
+  {
+    left: 5px;
+    top: 20px;
+    transform: rotateZ(-10deg);
+  }
+  45%
+  {
+    left: 11px;
+    top: 20px;
+    transform: rotateZ(-7deg);
+  }
+  60%
+  {
+    left: 26px;
+    top: 19px;
+    transform: rotateZ(-3deg);
+  }
+  75%
+  {
+    left: 35px;
+    top: 20px;
+    transform: rotateZ(0deg);
+  }
+  100%
+  {
+    left: 35px;
+    top: 20px;
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes wand-attack-fire {
+  0%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(0deg);
+  }
+  15%
+  {
+    left: 210px;
+    top: 50px;
+    transform: rotateZ(-25deg)
+  }
+  30%
+  {
+    left: 205px;
+    top: 30px;
+    transform: rotateZ(-30deg);
+  }
+  45%
+  {
+    left: 203px;
+    top: 65px;
+    transform: rotateZ(-20deg);
+  }
+  60%
+  {
+    left: 210px;
+    top: 110px;
+    transform: rotateZ(-10deg);
+  }
+  75%
+  {
+    left: 220px;
+    top: 120px;
+    transform: rotateZ(-5deg);
+  }
+  100%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes correct-fire {
+  0%
+  {
+    top: 115px;
+    left: 285px;
+    transform: rotateZ(-45deg);
+  }
+  10% 
+  {
+    top: 115px;
+    left: 250px;
+    transform: rotateZ(-90deg);
+  }
+  20%
+  {
+    top: 115px;
+    left: 285px;
+    transform: rotateZ(-135deg);
+  }
+  30% 
+  {
+    top: 115px;
+    left: calc(30vw);
+    transform: rotateZ(-180deg);
+  }
+  40%
+  {
+    top: 115px;
+    left: calc(40vw);
+    transform: rotateZ(-225deg);
+  }
+  50% 
+  {
+    top: 115px;
+    left: calc(50vw);
+    transform: rotateZ(-270deg);
+  }
+  60%
+  {
+    top: 115px;
+    left: calc(60vw);
+    transform: rotateZ(-315deg);
+  }
+  70%
+  {
+    top: 115px;
+    left: calc(70vw);
+    transform: rotateZ(-360deg);
+  }
+  80%
+  {
+    top: 115px;
+    left: calc(80vw);
+    transform: rotateZ(-405deg);
+  }
+  90%
+  {
+    top: 115px;
+    left: calc(90vw);
+    transform: rotateZ(-450deg);
+  }
+  100%
+  {
+    top: 115px;
+    left: calc(100vw);
+    transform: rotateZ(-495deg);
+  }
+}
+
+@keyframes body-opponent-fire {
+  0%
+  {
+    background-position: -3580px 50px;
+  }
+  60%
+  {
+    background-position: -4080px 50px;
+  }
+  70%
+  {
+    background-position: -4580px 50px;
+  }
+  80%
+  {
+    background-position: -5080px 50px;
+  }
+  90%
+  {
+    background-position: -5580px 50px;
+  }
+  100%
+  {
+    background-position: -6080px 50px;
+  }
+}
+
+@keyframes face-opponent-fire {
+  0%
+  {
+    left: 20px;
+    top: 20px;
+    transform: rotateZ(0deg)
+  }
+  60%
+  {
+    left: 17px;
+    top: 20px;
+    transform: rotateZ(-8deg);
+  }
+  70%
+  {
+    left: 14px;
+    top: 20px;
+    transform: rotateZ(-16deg);
+  }
+  80%
+  {
+    left: 17px;
+    top: 20px;
+    transform: rotateZ(-8deg);
+  }
+  90%
+  {
+    left: 20px;
+    top: 17px;
+    transform: rotateZ(-5deg);
+  }
+  100%
+  {
+    left: 23px;
+    top: 20px;
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes wand-opponent-fire {
+  0%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(0deg)
+  }
+  60%
+  {
+    left: 235px;
+    top: 70px;
+    transform: rotateZ(-15deg);
+  }
+  70%
+  {
+    left: 235px;
+    top: 50px;
+    transform: rotateZ(-25deg);
+  }
+  80%
+  {
+    left: 235px;
+    top: 90px;
+    transform: rotateZ(-10deg);
+  }
+  90%
+  {
+    left: 225px;
+    top: 115px;
+    transform: rotateZ(-5deg);
+  }
+  100%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes body-opponent-final-fire {
+  0%
+  {
+    background-position: -3580px 50px;
+  }
+  60%
+  {
+    background-position: -6580px 50px;
+  }
+  70%
+  {
+    background-position: -7080px 50px;
+  }
+  80%
+  {
+    background-position: -7580px 50px;
+  }
+  90%
+  {
+    background-position: -8080px 50px;
+  }
+  100%
+  {
+    background-position: -8580px 50px;
+  }
+}
+
+@keyframes face-opponent-final-fire {
+  0%
+  {
+    left: 20px;
+    top: 20px;
+    transform: rotateZ(0deg);
+  }
+  60%
+  {
+    left: 0px;
+    top: 10px;
+    transform: rotateZ(-16deg)
+  }
+  70%
+  {
+    left: -25px;
+    top: 10px;
+    transform: rotateZ(-31deg);
+  }
+  80%
+  {
+    left: -40px;
+    top: 10px;
+    transform: rotateZ(-50deg);
+  }
+  90%
+  {
+    left: -60px;
+    top: 60px;
+    transform: rotateZ(-81deg);
+  }
+  100%
+  {
+    left: -65px;
+    top: 60px;
+    transform: rotateZ(-84deg);
+  }
+}
+
+@keyframes wand-opponent-final-fire {
+  0%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(0deg);
+  }
+  60%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(3deg)
+  }
+  70%
+  {
+    left: 205px;
+    top: 130px;
+    transform: rotateZ(4deg);
+  }
+  80%
+  {
+    left: 185px;
+    top: 102px;
+    transform: rotateZ(13deg);
+  }
+  90%
+  {
+    left: 185px;
+    top: 130px;
+    transform: rotateZ(20deg);
+  }
+  100%
+  {
+    left: 160px;
+    top: 160px;
+    transform: rotateZ(27deg);
+  }
+}
+
+@keyframes body-attack-ice {
+  0%
+  {
+    background-position: -100px 50px;
+  }
+  15%
+  {
+    background-position: -600px 50px;
+  }
+  30%
+  {
+    background-position: -1100px 50px;
+  }
+  45%
+  {
+    background-position: -1600px 50px;
+  }
+  60%
+  {
+    background-position: -2100px 50px;
+  }
+  75%
+  {
+    background-position: -2600px 50px;
+  }
+  100%
+  {
+    background-position: -3100px 50px;
+  }
+}
+
+@keyframes face-attack-ice {
+  0%
+  {
+    left: 20px;
+    top: 20px;
+    transform: rotateZ(-5deg);
+  }
+  15%
+  {
+    left: 11px;
+    top: 20px;
+    transform: rotateZ(-7deg)
+  }
+  30%
+  {
+    left: 5px;
+    top: 20px;
+    transform: rotateZ(-10deg);
+  }
+  45%
+  {
+    left: 11px;
+    top: 20px;
+    transform: rotateZ(-7deg);
+  }
+  60%
+  {
+    left: 26px;
+    top: 19px;
+    transform: rotateZ(-3deg);
+  }
+  75%
+  {
+    left: 35px;
+    top: 20px;
+    transform: rotateZ(0deg);
+  }
+  100%
+  {
+    left: 35px;
+    top: 20px;
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes wand-attack-ice {
+  0%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(0deg);
+  }
+  15%
+  {
+    left: 210px;
+    top: 50px;
+    transform: rotateZ(-25deg)
+  }
+  30%
+  {
+    left: 205px;
+    top: 30px;
+    transform: rotateZ(-30deg);
+  }
+  45%
+  {
+    left: 203px;
+    top: 65px;
+    transform: rotateZ(-20deg);
+  }
+  60%
+  {
+    left: 210px;
+    top: 110px;
+    transform: rotateZ(-10deg);
+  }
+  75%
+  {
+    left: 220px;
+    top: 120px;
+    transform: rotateZ(-5deg);
+  }
+  100%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes correct-ice {
+  0%
+  {
+    top: 115px;
+    left: 285px;
+    transform: rotateZ(-45deg);
+  }
+  10% 
+  {
+    top: 115px;
+    left: 250px;
+    transform: rotateZ(-90deg);
+  }
+  20%
+  {
+    top: 115px;
+    left: 285px;
+    transform: rotateZ(-135deg);
+  }
+  30% 
+  {
+    top: 115px;
+    left: calc(30vw);
+    transform: rotateZ(-180deg);
+  }
+  40%
+  {
+    top: 115px;
+    left: calc(40vw);
+    transform: rotateZ(-225deg);
+  }
+  50% 
+  {
+    top: 115px;
+    left: calc(50vw);
+    transform: rotateZ(-270deg);
+  }
+  60%
+  {
+    top: 115px;
+    left: calc(60vw);
+    transform: rotateZ(-315deg);
+  }
+  70%
+  {
+    top: 115px;
+    left: calc(70vw);
+    transform: rotateZ(-360deg);
+  }
+  80%
+  {
+    top: 115px;
+    left: calc(80vw);
+    transform: rotateZ(-405deg);
+  }
+  90%
+  {
+    top: 115px;
+    left: calc(90vw);
+    transform: rotateZ(-450deg);
+  }
+  100%
+  {
+    top: 115px;
+    left: calc(100vw);
+    transform: rotateZ(-495deg);
+  }
+}
+
+@keyframes body-opponent-ice {
+  0%
+  {
+    background-position: -3580px 50px;
+  }
+  60%
+  {
+    background-position: -4080px 50px;
+  }
+  70%
+  {
+    background-position: -4580px 50px;
+  }
+  80%
+  {
+    background-position: -5080px 50px;
+  }
+  90%
+  {
+    background-position: -5580px 50px;
+  }
+  100%
+  {
+    background-position: -6080px 50px;
+  }
+}
+
+@keyframes face-opponent-ice {
+  0%
+  {
+    left: 20px;
+    top: 20px;
+    transform: rotateZ(0deg)
+  }
+  60%
+  {
+    left: 17px;
+    top: 20px;
+    transform: rotateZ(-8deg);
+  }
+  70%
+  {
+    left: 14px;
+    top: 20px;
+    transform: rotateZ(-16deg);
+  }
+  80%
+  {
+    left: 17px;
+    top: 20px;
+    transform: rotateZ(-8deg);
+  }
+  90%
+  {
+    left: 20px;
+    top: 17px;
+    transform: rotateZ(-5deg);
+  }
+  100%
+  {
+    left: 23px;
+    top: 20px;
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes wand-opponent-ice {
+  0%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(0deg)
+  }
+  60%
+  {
+    left: 235px;
+    top: 70px;
+    transform: rotateZ(-15deg);
+  }
+  70%
+  {
+    left: 235px;
+    top: 50px;
+    transform: rotateZ(-25deg);
+  }
+  80%
+  {
+    left: 235px;
+    top: 90px;
+    transform: rotateZ(-10deg);
+  }
+  90%
+  {
+    left: 225px;
+    top: 115px;
+    transform: rotateZ(-5deg);
+  }
+  100%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes body-opponent-final-ice {
+  0%
+  {
+    background-position: -3580px 50px;
+  }
+  60%
+  {
+    background-position: -6580px 50px;
+  }
+  70%
+  {
+    background-position: -7080px 50px;
+  }
+  80%
+  {
+    background-position: -7580px 50px;
+  }
+  90%
+  {
+    background-position: -8080px 50px;
+  }
+  100%
+  {
+    background-position: -8580px 50px;
+  }
+}
+
+@keyframes face-opponent-final-ice {
+  0%
+  {
+    left: 20px;
+    top: 20px;
+    transform: rotateZ(0deg);
+  }
+  60%
+  {
+    left: 0px;
+    top: 10px;
+    transform: rotateZ(-16deg)
+  }
+  70%
+  {
+    left: -25px;
+    top: 10px;
+    transform: rotateZ(-31deg);
+  }
+  80%
+  {
+    left: -40px;
+    top: 10px;
+    transform: rotateZ(-50deg);
+  }
+  90%
+  {
+    left: -60px;
+    top: 60px;
+    transform: rotateZ(-81deg);
+  }
+  100%
+  {
+    left: -65px;
+    top: 60px;
+    transform: rotateZ(-84deg);
+  }
+}
+
+@keyframes wand-opponent-final-ice {
+  0%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(0deg);
+  }
+  60%
+  {
+    left: 215px;
+    top: 135px;
+    transform: rotateZ(3deg)
+  }
+  70%
+  {
+    left: 205px;
+    top: 130px;
+    transform: rotateZ(4deg);
+  }
+  80%
+  {
+    left: 185px;
+    top: 102px;
+    transform: rotateZ(13deg);
+  }
+  90%
+  {
+    left: 185px;
+    top: 130px;
+    transform: rotateZ(20deg);
+  }
+  100%
+  {
+    left: 160px;
+    top: 160px;
+    transform: rotateZ(27deg);
+  }
+}
+
+.body-attack-fire-anim {
+    animation: body-attack-fire 0.5s steps(1);
+}
+
+.face-attack-fire-anim {
+  animation: face-attack-fire 0.5s steps(1);
+}
+
+.wand-attack-fire-anim {
+  animation: wand-attack-fire 0.5s steps(1);
+}
+
+.correct-fire-anim {
+  animation: correct-fire 1s steps(1);
+}
+
+.body-opponent-fire-anim {
+    animation: body-opponent-fire  1s steps(1);
+}
+
+.face-opponent-fire-anim {
+  animation: face-opponent-fire 1s steps(1);
+}
+
+.wand-opponent-fire-anim {
+  animation: wand-opponent-fire 1s steps(1);
+}
+
+.body-opponent-final-fire {
+    animation: body-opponent-final-fire 1s forwards steps(1);
+}
+
+.face-opponent-final-fire {
+    animation: face-opponent-final-fire 1s forwards steps(1);
+}
+
+.wand-opponent-final-fire {
+  animation: wand-opponent-final-fire 1s forwards steps(1);
+}
+
+.body-attack-ice-anim {
+  animation: body-attack-ice 0.5s steps(1);
+}
+
+.face-attack-ice-anim {
+animation: face-attack-ice 0.5s steps(1);
+}
+
+.wand-attack-ice-anim {
+animation: wand-attack-ice 0.5s steps(1);
+}
+
+.correct-ice-anim {
+animation: correct-ice 1s steps(1);
+}
+
+.body-opponent-ice-anim {
+  animation: body-opponent-ice  1s steps(1);
+}
+
+.face-opponent-ice-anim {
+animation: face-opponent-ice 1s steps(1);
+}
+
+.wand-opponent-ice-anim {
+animation: wand-opponent-ice 1s steps(1);
+}
+
+.body-opponent-final-ice {
+  animation: body-opponent-final-ice 1s forwards steps(1);
+}
+
+.face-opponent-final-ice {
+  animation: face-opponent-final-ice 1s forwards steps(1);
+}
+
+.wand-opponent-final-ice {
+animation: wand-opponent-final-ice 1s forwards steps(1);
+}
